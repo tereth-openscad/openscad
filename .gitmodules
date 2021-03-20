@@ -1,0 +1,7 @@
+[submodule "BOSL"]
+	path = BOSL
+	url = https://github.com/revarbat/BOSL.git
+	branch = master
+[submodule "game_tile_trays"]
+	path = game_tile_trays
+	url = https://github.com/tereth-openscad/game_tile_trays.git
