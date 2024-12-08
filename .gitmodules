@@ -4,4 +4,7 @@
 	branch = master
 [submodule "game_tile_trays"]
 	path = game_tile_trays
-	url = https://github.com/tereth-openscad/game_tile_trays.git
+	url = https://github.com/tereth-openscad/game_tile_trays.git
+[submodule "Round-Anything"]
+	path = Round-Anything
+	url = https://github.com/Irev-Dev/Round-Anything.git

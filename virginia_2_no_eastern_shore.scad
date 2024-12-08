@@ -151,22 +151,6 @@ module poly_path146(h, w, res=4)  {
   }
 }
 
-//path352_0_points = [[53.483029,10.531456],[53.974838,9.890437],[53.987201,9.102315]];
-
-module poly_path352(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path352_0_points)-2]) {
-      hull() {
-        translate(path352_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path352_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
 path294_0_points = [[41.286114,17.932212],[40.299422,17.649991]];
 
 module poly_path294(h, w, res=4)  {
@@ -273,22 +257,6 @@ module poly_path148(h, w, res=4)  {
         translate(path148_0_points[t]) 
           cylinder(h=h, r=w/2, $fn=res);
         translate(path148_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
-//path362_0_points = [[57.204910,1.309627],[57.282494,0.817891],[58.042128,0.751176]];
-
-module poly_path362(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path362_0_points)-2]) {
-      hull() {
-        translate(path362_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path362_0_points[t + 1]) 
           cylinder(h=h, r=w/2, $fn=res);
       }
     }
@@ -482,22 +450,6 @@ module poly_path198(h, w, res=4)  {
   }
 }
 
-//path322_0_points = [[67.789450,-0.018071],[66.074600,1.849410],[64.625266,4.189079]];
-
-module poly_path322(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path322_0_points)-2]) {
-      hull() {
-        translate(path322_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path322_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
 path236_0_points = [[-57.208354,20.614396],[-58.025147,21.057807],[-58.440791,21.766755]];
 
 module poly_path236(h, w, res=4)  {
@@ -508,22 +460,6 @@ module poly_path236(h, w, res=4)  {
         translate(path236_0_points[t]) 
           cylinder(h=h, r=w/2, $fn=res);
         translate(path236_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
-//path346_0_points = [[53.353437,18.284978],[52.789195,17.151267],[52.529301,15.649843],[52.591688,14.166126],[52.994288,13.085535]];
-
-module poly_path346(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  #union()  {
-    for (t = [0: len(path346_0_points)-2]) {
-      hull() {
-        translate(path346_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path346_0_points[t + 1]) 
           cylinder(h=h, r=w/2, $fn=res);
       }
     }
@@ -706,22 +642,6 @@ module poly_path162(h, w, res=4)  {
   }
 }
 
-//path348_0_points = [[52.994288,13.085535],[53.226736,12.282854],[52.982276,11.614322]];
-
-module poly_path348(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  #union()  {
-    for (t = [0: len(path348_0_points)-2]) {
-      hull() {
-        translate(path348_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path348_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
 path164_0_points = [[10.209304,-19.835945],[8.689892,-18.551870],[7.836150,-17.063341]];
 
 module poly_path164(h, w, res=4)  {
@@ -828,22 +748,6 @@ module poly_path234(h, w, res=4)  {
         translate(path234_0_points[t]) 
           cylinder(h=h, r=w/2, $fn=res);
         translate(path234_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
-//path356_0_points = [[55.466682,5.975670],[55.967833,5.148659],[55.962755,4.398359]];
-
-module poly_path356(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path356_0_points)-2]) {
-      hull() {
-        translate(path356_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path356_0_points[t + 1]) 
           cylinder(h=h, r=w/2, $fn=res);
       }
     }
@@ -1254,22 +1158,6 @@ module poly_path312(h, w, res=4)  {
   }
 }
 
-//path320_0_points = [[68.662755,-1.197774],[68.503037,-0.581554],[67.789450,-0.018071]];
-
-module poly_path320(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  #union()  {
-    for (t = [0: len(path320_0_points)-2]) {
-      hull() {
-        translate(path320_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path320_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
 path138_0_points = [[33.457379,-19.603341],[32.310735,-20.411871]];
 
 module poly_path138(h, w, res=4)  {
@@ -1360,22 +1248,6 @@ module poly_path184(h, w, res=4)  {
   }
 }
 
-//path342_0_points = [[55.416377,17.263911],[54.995552,18.463355]];
-
-module poly_path342(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path342_0_points)-2]) {
-      hull() {
-        translate(path342_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path342_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
 path186_0_points = [[-8.101688,-6.181815],[-9.371688,-4.334145]];
 
 module poly_path186(h, w, res=4)  {
@@ -1402,22 +1274,6 @@ module poly_path286(h, w, res=4)  {
         translate(path286_0_points[t]) 
           cylinder(h=h, r=w/2, $fn=res);
         translate(path286_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
-//path358_0_points = [[55.962755,4.398359],[56.234801,3.854289],[57.338339,3.808066]];
-
-module poly_path358(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path358_0_points)-2]) {
-      hull() {
-        translate(path358_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path358_0_points[t + 1]) 
           cylinder(h=h, r=w/2, $fn=res);
       }
     }
@@ -1488,22 +1344,6 @@ module poly_path50(h, w, res=4)  {
   }
 }
 
-//path350_0_points = [[52.982266,11.614322],[52.958238,11.005979],[53.483029,10.531456]];
-
-module poly_path350(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path350_0_points)-2]) {
-      hull() {
-        translate(path350_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path350_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
 path56_0_points = [[42.842978,11.694766],[44.194034,13.366239],[45.174846,14.321075]];
 
 module poly_path56(h, w, res=4)  {
@@ -1530,22 +1370,6 @@ module poly_path48(h, w, res=4)  {
         translate(path48_0_points[t]) 
           cylinder(h=h, r=w/2, $fn=res);
         translate(path48_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
-//path360_0_points = [[57.338339,3.808066],[57.556557,3.797840],[57.615269,3.531785],[57.204910,1.309627]];
-
-module poly_path360(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path360_0_points)-2]) {
-      hull() {
-        translate(path360_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path360_0_points[t + 1]) 
           cylinder(h=h, r=w/2, $fn=res);
       }
     }
@@ -1744,22 +1568,6 @@ module poly_path64(h, w, res=4)  {
   }
 }
 
-//path366_0_points = [[58.900807,-0.121118],[59.817643,-0.665125],[61.668395,-1.087609],[64.620405,-1.374807]];
-
-module poly_path366(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path366_0_points)-2]) {
-      hull() {
-        translate(path366_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path366_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
 path62_0_points = [[45.653715,13.660109],[45.862317,12.720689],[46.082390,12.053715]];
 
 module poly_path62(h, w, res=4)  {
@@ -1770,22 +1578,6 @@ module poly_path62(h, w, res=4)  {
         translate(path62_0_points[t]) 
           cylinder(h=h, r=w/2, $fn=res);
         translate(path62_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
-//path364_0_points = [[58.042128,0.751176],[58.623623,0.388161],[58.900807,-0.121118]];
-
-module poly_path364(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  #union()  {
-    for (t = [0: len(path364_0_points)-2]) {
-      hull() {
-        translate(path364_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path364_0_points[t + 1]) 
           cylinder(h=h, r=w/2, $fn=res);
       }
     }
@@ -1894,7 +1686,6 @@ module poly_path32(h, w, res=4)  {
 
 path374_0_points = [[63.257770,1.636302],[63.257770,1.636302],[63.257770,1.636302],[63.257770,1.636302]];
 
-//MAYBE
 module poly_path374(h, w, res=4)  {
   scale([profile_scale, -profile_scale, 1])
   union()  {
@@ -1945,22 +1736,6 @@ module poly_path30(h, w, res=4)  {
         translate(path30_0_points[t]) 
           cylinder(h=h, r=w/2, $fn=res);
         translate(path30_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
-//path344_0_points = [[54.995552,18.463355],[54.248239,18.763494],[53.353437,18.284978]];
-
-module poly_path344(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path344_0_points)-2]) {
-      hull() {
-        translate(path344_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path344_0_points[t + 1]) 
           cylinder(h=h, r=w/2, $fn=res);
       }
     }
@@ -2063,38 +1838,6 @@ module poly_path116(h, w, res=4)  {
   }
 }
 
-//path368_0_points = [[64.620405,-1.374807],[64.563820,-0.752372],[64.194567,0.003010],[63.257770,1.636302]];
-
-module poly_path368(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path368_0_points)-2]) {
-      hull() {
-        translate(path368_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path368_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
-//path332_0_points = [[62.129716,4.545293],[61.078862,6.008827],[60.853750,6.759461],[60.942618,7.434577]];
-
-module poly_path332(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path332_0_points)-2]) {
-      hull() {
-        translate(path332_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path332_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
 path82_0_points = [[40.967262,4.970174],[37.418657,0.628195]];
 
 module poly_path82(h, w, res=4)  {
@@ -2137,22 +1880,6 @@ module poly_path78(h, w, res=4)  {
         translate(path78_0_points[t]) 
           cylinder(h=h, r=w/2, $fn=res);
         translate(path78_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
-//path354_0_points = [[53.987201,9.102315],[54.013825,8.254329],[54.355578,7.348311],[55.466682,5.975670]];
-
-module poly_path354(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  #union()  {
-    for (t = [0: len(path354_0_points)-2]) {
-      hull() {
-        translate(path354_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path354_0_points[t + 1]) 
           cylinder(h=h, r=w/2, $fn=res);
       }
     }
@@ -2287,22 +2014,6 @@ module poly_path114(h, w, res=4)  {
   }
 }
 
-//path334_0_points = [[60.942618,7.434577],[60.641109,8.387725],[59.760798,9.410131]];
-
-module poly_path334(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path334_0_points)-2]) {
-      hull() {
-        translate(path334_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path334_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
 path120_0_points = [[36.876795,-4.484804],[36.168376,-5.741958]];
 
 module poly_path120(h, w, res=4)  {
@@ -2399,22 +2110,6 @@ module poly_path268(h, w, res=4)  {
   }
 }
 
-//path336_0_points = [[59.760798,9.410131],[57.739036,11.447647],[57.430881,11.965047],[57.458841,12.484722]];
-
-module poly_path336(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  #union()  {
-    for (t = [0: len(path336_0_points)-2]) {
-      hull() {
-        translate(path336_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path336_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
 path92_0_points = [[44.038865,4.078716],[45.520532,5.662107]];
 
 module poly_path92(h, w, res=4)  {
@@ -2473,22 +2168,6 @@ module poly_path314(h, w, res=4)  {
         translate(path314_0_points[t]) 
           cylinder(h=h, r=w/2, $fn=res);
         translate(path314_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
-//path338_0_points = [[57.458841,12.484722],[57.373542,13.240960],[56.910318,13.743302]];
-
-module poly_path338(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  #union()  {
-    for (t = [0: len(path338_0_points)-2]) {
-      hull() {
-        translate(path338_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path338_0_points[t + 1]) 
           cylinder(h=h, r=w/2, $fn=res);
       }
     }
@@ -2601,22 +2280,6 @@ module poly_path122(h, w, res=4)  {
   }
 }
 
-//path326_0_points = [[63.298632,3.248583],[63.392776,2.098185]];
-
-module poly_path326(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  union()  {
-    for (t = [0: len(path326_0_points)-2]) {
-      hull() {
-        translate(path326_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path326_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
 path118_0_points = [[39.727898,-2.952231],[37.996442,-3.470707],[36.876795,-4.484804]];
 
 module poly_path118(h, w, res=4)  {
@@ -2627,22 +2290,6 @@ module poly_path118(h, w, res=4)  {
         translate(path118_0_points[t]) 
           cylinder(h=h, r=w/2, $fn=res);
         translate(path118_0_points[t + 1]) 
-          cylinder(h=h, r=w/2, $fn=res);
-      }
-    }
-  }
-}
-
-//path330_0_points = [[63.257770,1.636302],[62.869059,3.060403],[62.129716,4.545293]];
-
-module poly_path330(h, w, res=4)  {
-  scale([profile_scale, -profile_scale, 1])
-  #union()  {
-    for (t = [0: len(path330_0_points)-2]) {
-      hull() {
-        translate(path330_0_points[t]) 
-          cylinder(h=h, r=w/2, $fn=res);
-        translate(path330_0_points[t + 1]) 
           cylinder(h=h, r=w/2, $fn=res);
       }
     }
@@ -2779,14 +2426,12 @@ module poly_path240(h, w, res=4)  {
 
 // The shapes
 poly_path262(height, width);
-//poly_path324(height, width);
 poly_path196(height, width);
 poly_path142(height, width);
 poly_path308(height, width);
 poly_path144(height, width);
 poly_path194(height, width);
 poly_path146(height, width);
-poly_path352(height, width);
 poly_path294(height, width);
 poly_path206(height, width);
 poly_path150(height, width);
@@ -2794,7 +2439,6 @@ poly_path220(height, width);
 poly_path152(height, width);
 poly_path192(height, width);
 poly_path148(height, width);
-poly_path362(height, width);
 poly_path224(height, width);
 poly_path208(height, width);
 poly_path250(height, width);
@@ -2807,9 +2451,7 @@ poly_path304(height, width);
 poly_path134(height, width);
 poly_path370(height, width);
 poly_path198(height, width);
-poly_path322(height, width);
 poly_path236(height, width);
-poly_path346(height, width);
 poly_path156(height, width);
 poly_path210(height, width);
 poly_path232(height, width);
@@ -2821,7 +2463,6 @@ poly_path274(height, width);
 poly_path216(height, width);
 poly_path252(height, width);
 poly_path162(height, width);
-poly_path348(height, width);
 poly_path164(height, width);
 poly_path238(height, width);
 poly_path168(height, width);
@@ -2829,7 +2470,6 @@ poly_path166(height, width);
 poly_path246(height, width);
 poly_path218(height, width);
 poly_path234(height, width);
-poly_path356(height, width);
 poly_path140(height, width);
 poly_path296(height, width);
 poly_path244(height, width);
@@ -2856,25 +2496,20 @@ poly_path128(height, width);
 poly_path178(height, width);
 poly_path256(height, width);
 poly_path312(height, width);
-poly_path320(height, width);
 poly_path138(height, width);
 poly_path204(height, width);
 poly_path574(height, width);
 poly_path176(height, width);
 poly_path284(height, width);
 poly_path184(height, width);
-poly_path342(height, width);
 poly_path186(height, width);
 poly_path286(height, width);
-poly_path358(height, width);
 poly_path126(height, width);
 poly_path42(height, width);
 poly_path188(height, width);
 poly_path50(height, width);
-poly_path350(height, width);
 poly_path56(height, width);
 poly_path48(height, width);
-poly_path360(height, width);
 poly_path36(height, width);
 poly_path58(height, width);
 poly_path84(height, width);
@@ -2887,9 +2522,7 @@ poly_path228(height, width);
 poly_path60(height, width);
 poly_path292(height, width);
 poly_path64(height, width);
-poly_path366(height, width);
 poly_path62(height, width);
-poly_path364(height, width);
 poly_path328(height, width);
 poly_path302(height, width);
 poly_path272(height, width);
@@ -2901,19 +2534,15 @@ poly_path374(height, width);
 poly_path68(height, width);
 poly_path266(height, width);
 poly_path30(height, width);
-poly_path344(height, width);
 poly_path70(height, width);
 poly_path300(height, width);
 poly_path74(height, width);
 poly_path86(height, width);
 poly_path34(height, width);
 poly_path116(height, width);
-poly_path368(height, width);
-poly_path332(height, width);
 poly_path82(height, width);
 poly_path280(height, width);
 poly_path78(height, width);
-poly_path354(height, width);
 poly_path88(height, width);
 poly_path310(height, width);
 poly_path46(height, width);
@@ -2922,19 +2551,16 @@ poly_path282(height, width);
 poly_path80(height, width);
 poly_path276(height, width);
 poly_path114(height, width);
-poly_path334(height, width);
 poly_path120(height, width);
 poly_path90(height, width);
 poly_path242(height, width);
 poly_path94(height, width);
 poly_path100(height, width);
 poly_path268(height, width);
-poly_path336(height, width);
 poly_path92(height, width);
 poly_path270(height, width);
 poly_path96(height, width);
 poly_path314(height, width);
-poly_path338(height, width);
 poly_path102(height, width);
 poly_path108(height, width);
 poly_path104(height, width);
@@ -2942,12 +2568,8 @@ poly_path258(height, width);
 poly_path106(height, width);
 poly_path570(height, width);
 poly_path122(height, width);
-poly_path326(height, width);
 poly_path118(height, width);
-poly_path330(height, width);
 poly_path230(height, width);
-poly_path316(height, width);
-poly_path340(height, width);
 poly_path38(height, width);
 poly_path248(height, width);
 poly_path40(height, width);
